@@ -31,7 +31,7 @@ const AdminDashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-violet-50 p-4 md:p-8">
+    <div className="min-h-screen bg-linear-to-br from-indigo-50 via-white to-violet-50 p-4 md:p-8">
 
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
@@ -103,7 +103,7 @@ const AdminDashboard = () => {
               {/* Top row */}
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-indigo-400 to-violet-500 flex items-center justify-center text-white font-semibold text-base shrink-0">
+                  <div className="w-11 h-11 rounded-full bg-linear-to-br from-indigo-400 to-violet-500 flex items-center justify-center text-white font-semibold text-base shrink-0">
                     {employee.name?.charAt(0).toUpperCase()}
                   </div>
                   <div>
@@ -124,7 +124,7 @@ const AdminDashboard = () => {
                 </div>
                 <div className="w-full h-1.5 bg-indigo-50 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-indigo-400 to-violet-500 rounded-full transition-all"
+                    className="h-full bg-linear-to-r from-indigo-400 to-violet-500 rounded-full transition-all"
                     style={{ width: `${percent}%` }}
                   />
                 </div>
